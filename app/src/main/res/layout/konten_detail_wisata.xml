@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Dibuat Oleh Arief Izhharuddin pada 9/17/17 5:10 AM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Terakhir dimodifikasi 9/17/17 5:10 AM
+  ~ username IzhharuddinArief
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4sp"
+        tools:ignore="SmallSp" />
+
+    <include
+        layout="@layout/item_detail_wisata_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="6sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginRight="12sp" />
+
+    <include
+        layout="@layout/item_detail_wisata_fasilitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="6sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginRight="12sp" />
+
+    <include
+        layout="@layout/item_detail_wisata_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="6sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginRight="12sp"/>
+</LinearLayout>

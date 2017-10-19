@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Dibuat Oleh Arief Izhharuddin pada 9/17/17 5:10 AM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Terakhir dimodifikasi 9/17/17 5:10 AM
+  ~ username IzhharuddinArief
+  -->
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.PetaWisata">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" >
+        </fragment>
+
+    <TextView
+        android:id="@+id/id_wisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

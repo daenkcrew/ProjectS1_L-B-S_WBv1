@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Dibuat Oleh Arief Izhharuddin pada 9/17/17 5:10 AM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Terakhir dimodifikasi 9/17/17 5:10 AM
+  ~ username IzhharuddinArief
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/pencarian"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+</menu>

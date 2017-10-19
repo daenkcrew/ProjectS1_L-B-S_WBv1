@@ -1,0 +1,74 @@
+/*
+ * Dibuat Oleh Arief Izhharuddin pada 9/17/17 5:10 AM
+ * Copyright (c) 2017. All rights reserved
+ *
+ * Terakhir dimodifikasi 9/17/17 5:10 AM
+ * username IzhharuddinArief
+ */
+
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'Izhharuddin'
+            keyPassword 'x6654d43nk'
+            storeFile file('D:/Projects/AndroidStudioProjects/TugasAkhir6/keystoreapp/keys.jks')
+            storePassword 'x6654d43nk'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion '26.0.1'
+    defaultConfig {
+        resConfigs "en", "hi"
+        applicationId "com.izhharuddinarief.tugasakhir"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        useLibrary 'org.apache.http.legacy'
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            //Enable the proguard
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), "proguard-rules.pro"
+            //Other parameters
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            pseudoLocalesEnabled false
+            zipAlignEnabled true
+            signingConfig signingConfigs.config
+        }
+    }
+    dexOptions {
+    }
+    productFlavors {
+        flavor {
+            minSdkVersion 19
+            signingConfig signingConfigs.config
+            targetSdkVersion 26
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.google.android.gms:play-services-maps:10.0.1'
+    compile 'com.google.android.gms:play-services-location:10.0.1'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:cardview-v7:26.+'
+    compile 'com.android.support:design:26.+'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    testCompile 'junit:junit:4.12'
+}

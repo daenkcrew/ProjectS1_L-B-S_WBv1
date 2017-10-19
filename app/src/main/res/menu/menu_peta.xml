@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Dibuat Oleh Arief Izhharuddin pada 9/17/17 5:10 AM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Terakhir dimodifikasi 9/17/17 5:10 AM
+  ~ username IzhharuddinArief
+  -->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_layers"
+        android:title="@string/menu_layers"
+        android:icon="@drawable/ic_menu_map"
+        android:orderInCategory="1"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_layers_normal"
+                android:title="@string/menu_layers_normal"
+                android:icon="@null"
+                android:orderInCategory="1" />
+            <item
+                android:id="@+id/menu_layers_satellite"
+                android:title="@string/menu_layers_satellite"
+                android:icon="@null"
+                android:orderInCategory="2" />
+            <item
+                android:id="@+id/menu_layers_hybrid"
+                android:title="@string/menu_layers_hybrid"
+                android:icon="@null"
+                android:orderInCategory="3" />
+            <item
+                android:id="@+id/menu_layers_terrain"
+                android:title="@string/menu_layers_terrain"
+                android:icon="@null"
+                android:orderInCategory="4" />
+        </menu>
+    </item>
+
+</menu>

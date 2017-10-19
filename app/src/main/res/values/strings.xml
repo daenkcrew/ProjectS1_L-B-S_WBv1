@@ -1,0 +1,184 @@
+<!--
+  ~ Dibuat Oleh Arief Izhharuddin pada 9/17/17 5:10 AM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Terakhir dimodifikasi 9/17/17 5:10 AM
+  ~ username IzhharuddinArief
+  -->
+
+<resources>
+
+    <string name="api_key_google">AIzaSyBVlbtr0-xItFxPE8eDVVZObaqwxMXeIv4</string>
+
+    <string name="app_name">Wisata Kab. Brebes</string>
+
+    <string name="pencarian"> Cari Wisata </string>
+    <string name="refresh"> Refresh </string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="type_name">Cari . ..</string>
+
+    <string name="judul_activity_maps">Peta Wisata</string>
+    <string name="judul_activity_wisata">Obyek Wisata</string>
+    <string name="judul_activity_detail_wisata">Detail OW</string>
+    <string name="judul_activity_bantuan">Bantuan!</string>
+    <string name="judul_activity_tentang">Tentang!</string>
+
+
+    <string name="nama_wisata">Nama Wisata</string>
+    <string name="alamat_wisata">Alamat</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="HP">Telp.</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="tiket">Tiket Masuk</string>
+    <string name="deskripsi">DESKRIPSI</string>
+    <string name="fasilitis">FASILITAS</string>
+    <string name="informasi">INFO</string>
+    <string name="informasi_kontak">INFORMASI KONTAK</string>
+
+    <!-- MENU TENTENG APLIKASI -->
+    <string name="nama_aplikasi">Wisata Brebes</string>
+    <string name="deskripsi_aplikasi"> Aplikasi ini dibuat untuk membantu wisatawan dalam mencari
+        informasi lokasi wisata serta memperkenalkan wisata yang ada di Kabupaten Brebes. </string>
+    <string name="title_activity_peta_wisata">Map</string>
+    <!-- MENU TENTENG APLIKASI -->
+
+    <string name="menu_map">Peta</string>
+    <string name="menu_layers">Layers</string>
+    <string name="menu_layers_normal">Normal</string>
+    <string name="menu_layers_satellite">Satellite</string>
+    <string name="menu_layers_hybrid">Hybrid</string>
+    <string name="menu_layers_terrain">Terrain</string>
+    <string name="menu_search">Search</string>
+    <string name="tentang">TENTANG</string>
+    <string name="bantuan">BANTUAN</string>
+    <string name="peta_wisata">PETA LOKASI</string>
+    <string name="obyek_wisata">OBYEK WISATA</string>
+    <string name="jalan">Jalan Kaki</string>
+    <string name="mengemudi">Mengemudi</string>
+    <string name="bersepeda">Bersepeda</string>
+    <string name="keterangan">KETERANGAN</string>
+
+    <string name="menu_peta_lokasi_wisata">
+        "Menu Peta Lokasi Wisata ini menampilkan peta Kabupaten Brebes, serta marker-marker lokasi wisata."
+    </string>
+
+    <string name="menu_obyek_wisata">
+        "Menu Obyek Wisata ini menampilkan daftar wisata yang ada di Kabupaten Brebes."
+        "Jika diklik salah satu wisata akan menampilkan detail informasi wisata tersebut."
+        "Untuk Menampilkan Rute Wisata Klik Icon Maps, lalu tap pada peta :)"
+    </string>
+
+    <string name="menu_bantuan">
+        "Menu Bantuan ini menampilkan petunjuk penggunaan Aplikasi."
+        "\nSerta mendeskripsikan menu-menu yang ada di aplikasi ini."
+    </string>
+
+    <string name="menu_tentang">
+        "Menampilkan tentang Aplikasi yang dibuat."
+    </string>
+
+    <!-- LISENSI LIBRARI -->
+    <string name="license_apache2">
+
+        "\nLicensed under the Apache License, Version 2.0 (the \"License\");"
+        "you may not use this file except in compliance with the License."
+        "You may obtain a copy of the License at\n"
+
+        "\nhttp://www.apache.org/licenses/LICENSE-2.0\n"
+
+        "\nUnless required by applicable law or agreed to in writing, software"
+        "distributed under the License is distributed on an \"AS IS\" BASIS,"
+        "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied."
+        "See the License for the specific language governing permissions and"
+        "limitations under the License."
+    </string>
+    <string name="license_bsd">
+
+    "\nRedistribution and use in source and binary forms, with or without"
+    "modification, are permitted provided that the following conditions are met:\n"
+
+    "\n1. Redistributions of source code must retain the above copyright notice, this"
+    "   list of conditions and the following disclaimer.\n"
+    "2. Redistributions in binary form must reproduce the above copyright notice,"
+    "   this list of conditions and the following disclaimer in the documentation"
+    "   and/or other materials provided with the distribution.\n"
+
+    "\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND"
+    "ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED"
+    "WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE"
+    "DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR"
+    "ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES"
+    "(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;"
+    "LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND"
+    "ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT"
+    "(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS"
+    "SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
+
+    "\nThe views and conclusions contained in the software and documentation are those"
+    "of the authors and should not be interpreted as representing official policies,"
+    "either expressed or implied, of the FreeBSD Project.\n"
+    </string>
+    <string name="license_gpl">
+
+    "\nThis program is free software: you can redistribute it and/or modify"
+    "it under the terms of the GNU General Public License as published by"
+    "the Free Software Foundation, either version 3 of the License, or"
+    "(at your option) any later version.\n"
+
+    "\nThis program is distributed in the hope that it will be useful,"
+    "but WITHOUT ANY WARRANTY; without even the implied warranty of"
+    "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
+    "GNU General Public License for more details.\n"
+
+    "\nYou should have received a copy of the GNU General Public License"
+    "along with this program.  If not, see http://www.gnu.org/licenses.\n"
+    </string>
+    <string name="license_mit">
+        "\nMIT License\n"
+
+
+        "\nPermission is hereby granted, free of charge, to any person obtaining a copy"
+        "of this software and associated documentation files (the "Software"), to deal"
+        "in the Software without restriction, including without limitation the rights"
+        "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell"
+        "copies of the Software, and to permit persons to whom the Software is"
+        "furnished to do so, subject to the following conditions:\n"
+
+        "\nThe above copyright notice and this permission notice shall be included in all"
+        "copies or substantial portions of the Software.\n"
+
+        "\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+        "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+        "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE"
+        "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER"
+        "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,"
+        "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE"
+        "SOFTWARE."
+    </string>
+    <string name="peta_lokasi_wisata">Menu Peta Lokasi Wisata</string>
+    <string name="menu_owisata">Menu Obyek Wisata</string>
+    <string name="menu_tentangm">Menu Tentang</string>
+    <string name="menu_bantuanm">Menu Bantuan</string>
+    <string name="penggunaan">Penggunaan Aplikasi ini membutuhkan ijin Akses GPS serta memerlukan
+        akses koneksi internet untuk menampilkan data dan peta informasi.</string>
+    <string name="library_android_cardview">Android CardView</string>
+    <string name="dev_android_inc">Android, Inc.</string>
+    <string name="library_android_image_slider">Android Image Slider</string>
+    <string name="dev_damaija">Damaija</string>
+    <string name="library_circleimageview">CircleImageView</string>
+    <string name="library_picasso">Picasso</string>
+    <string name="dev_square_inc">Square, Inc</string>
+    <string name="lis_apache_version_2_0">Apache Version 2.0</string>
+    <string name="ver_26_0_0">26.0.0</string>
+    <string name="ver_1_1_5">1.1.5</string>
+    <string name="lis_mit_licence">MIT Licence</string>
+    <string name="dev_henning_dodenhof">Henning Dodenhof</string>
+    <string name="ver_2_1_0">2.1.0</string>
+    <string name="ver_2_3_2">2.3.2</string>
+    <string name="rute_wisata">RUTE WISATA</string>
+    <string name="pustaka_dukungan">Pustaka Dukungan</string>
+    <string name="arief_izhharuddin_izhharuddinarieef_gmail_com">Arief Izhharuddin || izhharuddinarief@gmail.com</string>
+    <string name="desain_dan_pengkodean">Desain dan Pengkodean</string>
+</resources>

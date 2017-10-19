@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Dibuat Oleh Arief Izhharuddin pada 9/19/17 12:46 AM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Terakhir dimodifikasi 9/19/17 12:41 AM
+  ~ username IzhharuddinArief
+  -->
+
+<android.support.v4.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/aboutIcon"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+             />
+
+        <TextView
+            android:id="@+id/aboutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="@color/title"
+            android:textSize="18sp"
+            android:text="@string/app_name"/>
+
+        <View
+            android:id="@+id/aboutDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/aboutDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/deskripsi_aplikasi"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_marginTop="4dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/title"
+            android:text="@string/desain_dan_pengkodean" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/arief_izhharuddin_izhharuddinarieef_gmail_com"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
